@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Welcome to sportify">Sportify</li>
+            <a href="index1.html"><button style="background-color:black;
+                color:#fff;
+                height:50px;width: 100px;font-size: 18px;
+                cursor: pointer;">
+                    Home
+                </button>
+            </a>
+            <a href="contact.html"><button style="background-color:black;
+                        color:#fff;
+                        height:50px;width: 100px;font-size: 18px;
+                        cursor: pointer;">
+                     Contact Us
+                </button>
+            </a>
+        </ul>
+    </nav>
+
+    <div class="container">
+       <div class="songdetails">
+            <h1>Best for your Mood</h1>
+            <div class="songContainer">
+                <div class="songItem">
+                    <img alt="img1" 
+                    <span class="songName">Nasha </span>
+                    <span class="songPlay"><span class="timestamp">04:48 <i  id=0 class=" far songItemPlay fa-solid fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="img1" >
+                    <span class="songName">Cielo - Huma-Huma</span>
+                    <span class="songPlay"><span class="timestamp">05:02 <i  id=1 class=" far songItemPlay fa-solid fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="img1" >
+                    <span class="songName">Nasha </span>
+                    <span class="songPlay"><span class="timestamp">04:48 <i id=2 class=" far songItemPlay fa-solid fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="img1" >
+                    <span class="songName">Nasha</span>
+                    <span class="songPlay"><span class="timestamp">04:48 <i id=3 class="far songItemPlay fa-solid fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="img1" >
+                    <span class="songName">Nasha</span>
+                    <span class="songPlay"><span class="timestamp">04:48 <i id=4 class=" far songItemPlay fa-solid fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="img1" >
+                    <span class="songName">Nasha </span>
+                    <span class="songPlay"><span class="timestamp">04:48 <i id=5 class="far songItemPlay fa-solid fa-circle-play"></i> </span></span>
+                </div>
+            </div>
+       </div>
+
+        <div class="songs"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesom icons -->
+            <i class="fa-solid fa-2x fa-backward" id="previous"></i>
+            <i class="fa-solid fa-2x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+                <img src="play.gif" width="42px" alt="" id="gif"><span id="masterSongName">Nasha By Faridkot</span> 
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    <script src="https://kit.fontawesome.com/127a967b1d.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
